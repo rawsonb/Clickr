@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickr</title>
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="divholder">
+        <div class="hflex">
+            <h1 id="title">CLICKR</h1>
+        </div>
+        <hr class="lh">
+    </div>
+    <div class="hflex">
+        <input id="irand" type="number" maxlength="1" placeholder="##" onfocusout="storeRand()"
+            oninput="this.value = this.value.slice(0,this.maxLength)">
+        <p class="trand">rng +/-:</p>
+        <hr class="lv">
+        <input id="icps" type="number" maxlength="2" placeholder="##"
+            oninput="this.value = this.value.slice(0,this.maxLength)" onfocusout="storeCPS()">
+        <p class="tcps">cps:</p>
+    </div>
+    <div class="hflex">
+        <input id="itogglekey" type="text" placeholder="LControl LShift F" onfocusout="storeToggleKey()"></input>
+        <p>keybind:</p>
+    </div>
+    <div class="hflex">
+        <button id="bstart" onclick="bstart_clicked()">Start</button>
+        <a href="https://github.com/rawsonb/Clickr" target="_blank"><img src="./githb.png"></a>
+    </div>
+</body>
+
+</html>

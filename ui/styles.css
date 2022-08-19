@@ -1,0 +1,138 @@
+/*
+black coffee - 483D3F
+Green blue crayola - 058ED9
+eggshell - F4EBD9
+grullo - A39A92
+umber - 77685D
+
+*/
+
+.hflex {
+    display: flex;
+    flex-direction: row-reverse;
+    height: auto;
+    justify-content: center;
+}
+
+#bstart {
+    margin-left: 12px;
+}
+
+img {
+    margin-top: 18px;
+    width: 18px;
+    height: 18px;
+    padding-bottom: 2px;
+    background-color: #a39a92;
+    border: 2px solid #77685D;
+    border-radius: 4px;
+}
+
+input {
+    height: 18px;
+    margin-top: 18px;
+}
+
+#icps {
+    width: 16px;
+}
+
+.lv {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 18px;
+    height: 20px;
+}
+
+#irand {
+    width: 9px;
+    border-radius: 4px;
+}
+
+
+#itogglekey {
+    width: 137px;
+}
+
+input[type=number],
+input[type=text] {
+    border-color: #77685D;
+    border-style: double;
+    background-color: #a39a92;
+    color: #F4EBD9;
+    font-family: monospace;
+    font-weight: bold;
+    border-radius: 6px;
+    caret-color: #058Ed9;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.valign {
+    vertical-align: middle;
+}
+
+hr {
+    border-width: 1.5px;
+    background-color: #77685D;
+    border-style: solid;
+    color: #77685D;
+}
+
+.divholder {
+    width: min-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p {
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: bold;
+    color: #483D3F;
+}
+
+h1 {
+    font-family: monospace;
+    text-align: center;
+    color: #483D3F;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #a39a92;
+    color: #483D3F;
+    font-weight: bold;
+    font-family: monospace;
+    margin-top: 0px;
+    border-radius: 4px;
+    border-right: 2px solid #77685D;
+    border-left: 2px solid #77685D;
+    border-top: 2px solid #77685D;
+    border-bottom: 3px solid #483D3F;
+    height: 24px;
+    margin-top: 18px;
+}
+
+button:active {
+    border-bottom: 2px solid #77685D;
+    border-top: 2px solid #77685D;
+    border-right: 2px solid #77685D;
+    border-left: 2px solid #77685D;
+    margin-top: 19px;
+}
+
+
+
+body {
+    background-color: #F4EBD9;
+}
